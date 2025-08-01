@@ -17,5 +17,7 @@ public class Main {
         Biblio bibi1 = new Biblio(books1);
         System.out.println( bibi1.toString());
 //        System.out.println( bibi1[1].toString());
+
+        System.out.println("Привет. Ветка 1");
     }
 }
