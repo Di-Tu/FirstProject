@@ -6,5 +6,11 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello Mentor!");
 
+        Book warUndPice = new Book("Война и Мир", "Лев Толстой", 1863);
+        Book zemlianin = new Book("Землянин", "Роман Злотников", 2012);
+
+        System.out.println(warUndPice.toString());
+        System.out.println(zemlianin.toString());
+
     }
 }
