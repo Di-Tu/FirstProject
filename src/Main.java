@@ -19,5 +19,7 @@ public class Main {
 //        System.out.println( bibi1[1].toString());
 
         System.out.println("Привет. Ветка 1");
+        System.out.println();
+        System.out.println("Привет. Ветка 2");
     }
 }
