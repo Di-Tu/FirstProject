@@ -12,5 +12,10 @@ public class Main {
         System.out.println(warUndPice.toString());
         System.out.println(zemlianin.toString());
 
+        Book[] books1 = {warUndPice, zemlianin};
+
+        Biblio bibi1 = new Biblio(books1);
+        System.out.println( bibi1.toString());
+//        System.out.println( bibi1[1].toString());
     }
 }
